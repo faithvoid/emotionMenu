@@ -27,6 +27,6 @@ Great question! These are all values that are modifiable in emotionMenu.py, so y
 Python's the language I'm most fluent in and PyGame + python-av run wonderfully in terminal sessions, simple as that. C++ and SDL would be a better choice for performance and stability, but that also involves porting binaries to different platforms and whatnot, whereas this frontend can be modified to run on just about anything that runs Python and takes *nix commands.
 
 ## TODO
-[_] Add custom theme support
-[_] Add "Settings" menu and associated .cfg file
-[_] Remove resolution-specific code at some point down the line
+- [ ] Add custom theme support
+- [ ] Add "Settings" menu and associated .cfg file
+- [ ] Remove resolution-specific code at some point down the line
