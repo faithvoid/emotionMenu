@@ -25,3 +25,8 @@ Open "emotionMenu.py" in your favourite text editor, look for the default launch
 Great question! These are all values that are modifiable in emotionMenu.py, so you can set it up to your liking! By default, it comes themed to look like the Playstation 2's iconic main menu, but you're free to make any changes you see fit to your setup!
 - "Why make this in Python/PyGame instead of C++ / SDL?"
 Python's the language I'm most fluent in and PyGame + python-av run wonderfully in terminal sessions, simple as that. C++ and SDL would be a better choice for performance and stability, but that also involves porting binaries to different platforms and whatnot, whereas this frontend can be modified to run on just about anything that runs Python and takes *nix commands.
+
+## TODO
+[_] Add custom theme support
+[_] Add "Settings" menu and associated .cfg file
+[_] Remove resolution-specific code at some point down the line
