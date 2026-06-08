@@ -29,4 +29,6 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 ## TODO
 - [ ] Add custom theme support
 - [ ] Add "Settings" menu and associated .cfg file
-- [ ] Remove resolution-specific code at some point down the line
+- [ ] Add 240p/480i resolution toggle in Settings menu
+- [ ] Maybe add the ability to read RetroPie games list files so this can be used as it's own frontend for launching RetroPie games? A bit out of scope, but would be fun. Also the ability to access the same RetroPie settings as the ES frontend.
+- [ ] Make RetroPie theme based off of the launcher's default aesthetic.
