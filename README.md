@@ -22,3 +22,5 @@ fi
 Maybe? Probably not. Most resolution content is hardcoded for a 480p/480i resolution, as this is specifically targetting CRT setups. If I ever unravel that thread, I'll remove this section.
 - "How do I add/modify shortcuts?"
 Open "emotionMenu.py" in your favourite text editor, look for the default launcher items (emulationStation being #1), and add/modify contents to your heart's desire! You can add as many shortcuts as you care to scroll through.
+- "How do I change the background video / text colour / font?"
+Great question! These are all values that are modifiable in emotionMenu.py, so you can set it up to your liking! By default, it comes themed to look like the Playstation 2's iconic main menu, but you're free to make any changes you see fit to your setup!
