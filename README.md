@@ -30,8 +30,9 @@ Great question! These are all values that are modifiable in emotionMenu.py, so y
 Python's the language I'm most fluent in and PyGame + python-av run wonderfully in terminal sessions, simple as that. C++ and SDL would be a better choice for performance and stability, but that also involves porting binaries to different platforms and whatnot, whereas this frontend can be modified to run on just about anything that runs Python and takes *nix commands.
 
 ## TODO
-- [ ] Add custom theme support
-- [ ] Add "Settings" menu and associated .cfg file
-- [ ] Add 240p/480i resolution toggle in Settings menu
-- [ ] Maybe add the ability to read RetroPie games list files so this can be used as it's own frontend for launching RetroPie games? A bit out of scope, but would be fun. Also the ability to access the same RetroPie settings as the ES frontend.
-- [ ] Make RetroPie theme based off of the launcher's default aesthetic.
+- [x] Add custom theme support (will include a PS1, PS2, and Frutiger Aero theme at release)
+- [x] Add "Settings" menu and associated .cfg file
+- [ ] Add 240p/480i resolution toggle in Settings menu, as well as Lightgun configuration options
+- [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
+- [ ] PS1/PS2/VMU memory card management
+- [x] Add the ability to read RetroPie games list files so this can be used as it's own frontend for launching RetroPie games
