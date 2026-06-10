@@ -35,6 +35,7 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 ## TODO
 - [x] Add custom theme support (will include a PS1, PS2, and Frutiger Aero theme at release)
 - [x] Add "Settings" menu and associated .cfg file
+- [ ] Add menu text alignment options for custom themes
 - [ ] Add 240p/480i resolution toggle in Settings menu, as well as Lightgun configuration options
 - [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
 - [ ] PS1/PS2/VMU memory card management
