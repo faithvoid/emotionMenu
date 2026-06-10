@@ -1,7 +1,10 @@
 # emotionMenu
 A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking the Playstation 2 aesthetic. Written in Python with Pygame and the AV library.
 
-![](emotionMenu.png)
+![](themes/ps2.png)
+![](themes/ps1.png)
+![](themes/tachibana.png)
+![](themes/aero.png)
 
 ## Why?
 I've recently set up a Raspberry Pi 5 as an all-in-one retro gaming / media setup via installing Raspberry Pi OS, EmulationStation, XFCE4, Kodi, and a bunch of other goodies, and realized I didn't have a good way to swap between them all with both a keyboard/mouse setup or a controller, so I threw this together over the weekend as a basic but pretty launcher for EmulationStation, GunCon2 calibration, Kodi, and launching XFCE, but any and all launchers can be modified to your liking!
