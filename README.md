@@ -23,6 +23,8 @@ fi
 ```
 
 ## FAQ
+- "Is this a replacement for EmulationStation?"
+Not at all. This is a hobby project for my already-mostly-complete ES setup. Any advanced configuration, such as input configuration and scraping, still requires ES, this is just a "straight-to-game/app" style launcher.
 - "Does this work on HDTVs?"
 Maybe? Probably not. Most resolution content is hardcoded for a 480p/480i resolution, as this is specifically targetting CRT setups. If I ever unravel that thread, I'll remove this section.
 - "How do I add/modify shortcuts?"
@@ -35,7 +37,7 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 ## TODO
 - [x] Add custom theme support (will include a PS1, PS2, and Frutiger Aero theme at release)
 - [x] Add "Settings" menu and associated .cfg file
-- [ ] Add menu text alignment options for custom themes
+- [x] Add menu text alignment options for custom themes
 - [ ] Add 240p/480i resolution toggle in Settings menu, as well as Lightgun configuration options
 - [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
 - [ ] PS1/PS2/VMU memory card management
