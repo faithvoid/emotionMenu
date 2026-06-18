@@ -38,8 +38,9 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [x] Add custom theme support (will include a PS1, PS2, and Frutiger Aero theme at release)
 - [x] Add "Settings" menu and associated .cfg file
 - [x] Add menu text alignment options for custom themes
-- [ ] Automatic Lightgun detection, showing "Lightgun Calibration" as an option when a compatible lightgun is detected.
+- [ ] Automatic Lightgun detection & configuration (WIP, currently requires root to start/stop lightgun modules)
 - [ ] Add 240p/480i resolution toggle in Settings menu, as well as Lightgun configuration options
 - [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
 - [ ] PS1/PS2/VMU memory card management
+- [ ] Automatic PS1/PS2 CD/DVD detection with manual launch and auto-launch options
 - [x] Add the ability to read RetroPie games list files so this can be used as it's own frontend for launching RetroPie games
