@@ -13,6 +13,7 @@ A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking various 
 - Launch your EmulationStation games directly from emotionMenu's "Games" menu, with cover art and synopsis support!
 - Automatic detection and configuration of USB lightguns, with calibration options appearing in the Settings menu if necessary. 
 - Automatic detection of physical PS1/PS2 disks at the main menu, with optional CD/DVD autostart!
+- NFC GameCard support, launch all of your favourite titles via NFC cards for hybrid physical/digital game launching!
 - Incredibly simply to create custom themes for, simply copy your font, background image/video, and background audio of choice to a new folder in the "themes" directory, create a new "theme.cfg" file with text colour values and alignments, and you're set!
 
 ## Installation
