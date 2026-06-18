@@ -6,20 +6,18 @@ A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking the Play
 ![](themes/tachibana.png)
 ![](themes/aero.png)
 
-# Features
+#$ Features
 - A 10-foot interface designed specifically for use with CRT TVs, with nostalgic themes based around the Playstation and Playstation 2's visual design languages.
-- Video loop and still image background support for dynamic themes!
+- Video & audio loop and still image background support for dynamic themes!
 - Easily add and launch any Linux application from the main menu from any type of input!
 - Launch your EmulationStation games directly from emotionMenu's "Games" menu, with cover art and synopsis support!
-- Automatic detectionn and configuration of USB lightguns, with calibration options appearing in the Settings menu if necessary. 
+- Automatic detection and configuration of USB lightguns, with calibration options appearing in the Settings menu if necessary. 
 - Automatic detection of physical PS1/PS2 disks at the main menu, with optional CD/DVD autostart!
 
-## Why?
-I've recently set up a Raspberry Pi 5 as an all-in-one retro gaming / media setup via installing Raspberry Pi OS, EmulationStation, XFCE4, Kodi, and a bunch of other goodies, and realized I didn't have a good way to swap between them all with both a keyboard/mouse setup or a controller, so I threw this together over the weekend as a basic but pretty launcher for EmulationStation, GunCon2 calibration, Kodi, and launching XFCE, but any and all launchers can be modified to your liking!
 ## Installation
 - Download the latest release .zip
-- Extract the "emotionMenu" folder somewhere you'll remember on your Raspberry Pi
-- From here, you can either run the Python script directly from the terminal via "python3 emotionMenu.py", or add it to the end of .bashrc so that it automatically starts on login, like so!
+- Extract the "emotionMenu" folder somewhere you'll remember on your Raspberry Pi, such as the root of your home directory (ie; /home/pi/emotionMenu/)
+- From here, you can either run the Python script directly from the terminal via "python3 emotionMenu.py" while in the emotionMenu directory, or add it to the end of .bashrc so that it automatically starts on login, like so!
 ```
 # emotionMenu Launcher
 if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
@@ -30,6 +28,9 @@ if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
 fi
 ```
 
+## Why?
+I've recently set up a Raspberry Pi 5 as an all-in-one retro gaming / media setup via installing Raspberry Pi OS, EmulationStation, XFCE4, Kodi, and a bunch of other goodies, and realized I didn't have a good way to swap between them all with both a keyboard/mouse setup or a controller, so I threw this together over the weekend as a basic but pretty launcher for EmulationStation, GunCon2 calibration, Kodi, and launching XFCE, but any and all launchers can be modified to your liking!
+
 ## FAQ
 - "Is this a replacement for EmulationStation?"
 Not at all. This is a hobby project for my already-mostly-complete ES setup. Any advanced configuration, such as input configuration and scraping, still requires ES, this is just a "straight-to-game/app" style launcher.
@@ -37,12 +38,13 @@ Not at all. This is a hobby project for my already-mostly-complete ES setup. Any
 Maybe? Probably not. Most resolution content is hardcoded for a 480p/480i resolution, as this is specifically targetting CRT setups. If I ever unravel that thread, I'll remove this section, but I probably won't, since this is intended for CRTs and similar low resolution displays.
 - "How do I add/modify shortcuts?"
 Open "emotionMenu.py" in your favourite text editor, look for the default launcher items (emulationStation being #1), and add/modify contents to your heart's desire! You can add as many shortcuts as you care to scroll through.
-- "How do I change the background video / text colour / font?"
+- "How do I change the background video / text colour / font / background music?"
 You can modify "theme.cfg" in any existing theme to modify text colours, as well as replace background videos/images and fonts with your own, or create a new theme with your desired aesthetic!
 - "Why make this in Python/PyGame instead of C++ / SDL?"
 Python's the language I'm most fluent in and PyGame + python-av run wonderfully in terminal sessions, simple as that. C++ and SDL would be a better choice for performance and stability, but that also involves porting binaries to different platforms and whatnot, whereas this frontend can be modified to run on just about anything that runs Python and takes *nix commands.
 
 ## TODO
+- [x] Add the ability to read RetroPie games list files so this can be used as it's own frontend for launching RetroPie games
 - [x] Add custom theme support (will include a PS1, PS2, and Frutiger Aero theme at release)
 - [x] Add "Settings" menu and associated .cfg file
 - [x] Add menu text alignment options for custom themes
@@ -54,4 +56,3 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
 - [ ] PS1/PS2/VMU memory card management
 - [ ] Automatic PS1/PS2 CD/DVD detection with manual launch and auto-launch options
-- [x] Add the ability to read RetroPie games list files so this can be used as it's own frontend for launching RetroPie games
