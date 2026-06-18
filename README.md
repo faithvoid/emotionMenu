@@ -55,5 +55,5 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [ ] Automatic Lightgun detection & configuration (WIP, currently requires root to start/stop lightgun modules)
 - [ ] Add 240p/480i resolution toggle in Settings menu, as well as Lightgun configuration options
 - [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
-- [ ] PS1/PS2/VMU memory card management
+- [ ] PS1/PS2/VMU memory card management via mymc++ (wihch will hopefully include a PS2-style save menu with 3D icons, but that requires pyopengl integration, need to check if this is viable from terminal)
 - [ ] Automatic PS1/PS2 CD/DVD detection with manual launch and auto-launch options
