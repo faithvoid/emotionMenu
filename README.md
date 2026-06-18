@@ -7,12 +7,13 @@ A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking various 
 ![](themes/aero.png)
 
 ## Features
-- A 10-foot interface designed specifically for use with CRT TVs, with nostalgic themes based around the Playstation and Playstation 2's visual design languages.
+- A 10-foot interface designed specifically for use with CRT TVs, which includes nostalgic themes, two of which are based around the Playstation and Playstation 2's visual design languages.
 - Video & audio loop and still image background support for dynamic themes!
 - Easily add and launch any Linux application from the main menu from any type of input!
 - Launch your EmulationStation games directly from emotionMenu's "Games" menu, with cover art and synopsis support!
 - Automatic detection and configuration of USB lightguns, with calibration options appearing in the Settings menu if necessary. 
 - Automatic detection of physical PS1/PS2 disks at the main menu, with optional CD/DVD autostart!
+- Incredibly simply to create custom themes for, simply copy your font, background image/video, and background audio of choice to a new folder in the "themes" directory, create a new "theme.cfg" file with text colour values and alignments, and you're set!
 
 ## Installation
 - Download the latest release .zip
@@ -38,8 +39,8 @@ Not at all. This is a hobby project for my already-mostly-complete ES setup. Any
 Maybe? Probably not. Most resolution content is hardcoded for a 480p/480i resolution, as this is specifically targetting CRT setups. If I ever unravel that thread, I'll remove this section, but I probably won't, since this is intended for CRTs and similar low resolution displays.
 - "How do I add/modify shortcuts?"
 Open "emotionMenu.py" in your favourite text editor, look for the default launcher items (emulationStation being #1), and add/modify contents to your heart's desire! You can add as many shortcuts as you care to scroll through.
-- "How do I change the background video / text colour / font / background music?"
-You can modify "theme.cfg" in any existing theme to modify text colours, as well as replace background videos/images and fonts with your own, or create a new theme with your desired aesthetic!
+- "How do I change the background video / text colour / font / background music or make my own theme?"
+You can modify "theme.cfg" in any existing theme to modify text colours and positioning, as well as replace background videos/images and fonts with your own, or create a new theme with your desired aesthetic!
 - "Why make this in Python/PyGame instead of C++ / SDL?"
 Python's the language I'm most fluent in and PyGame + python-av run wonderfully in terminal sessions, simple as that. C++ and SDL would be a better choice for performance and stability, but that also involves porting binaries to different platforms and whatnot, whereas this frontend can be modified to run on just about anything that runs Python and takes *nix commands.
 
