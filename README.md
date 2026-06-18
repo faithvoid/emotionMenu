@@ -1,5 +1,5 @@
 # emotionMenu
-A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking the Playstation 2 aesthetic. Written in Python with Pygame and the AV library.
+A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking various retro game console aesthetics. Written in Python with Pygame and the AV library.
 
 ![](themes/ps2.png)
 ![](themes/ps1.png)
