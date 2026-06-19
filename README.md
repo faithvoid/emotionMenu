@@ -33,7 +33,7 @@ fi
 - To configure settings, press Triangle (Y) or Tab and adjust them to your preferences!
 
 ## NFC GameCards
-- To use NFC GameCards, you'll need to program the NFC tag you want to use with the following information. ```psx|Final Fantasy IX```, the first section being the system as named in EmulationStation, and the game name as registered in your scraped EmulationStation game data. Note that this assumes that your multi-disc games are either include ```(Disc X)``` in their name, or have been compressed into a single-file multi-disc format, like the .PBP format for PSX games.
+- To use NFC GameCards, you'll need to program the NFC tag you want to use with the following information. ```psx|Final Fantasy IX``` or ```snes|Zombies Ate My Neighbours```, the first section being the system as named in EmulationStation, and the game name as registered in your scraped EmulationStation game data. Note that this assumes that your multi-disc games are either include ```(Disc X)``` in their name, or have been compressed into a single-file multi-disc format, like the .PBP format for PSX games.
 - Once programmed, tap the card against your NFC card reader while emotionMenu is running and your game will automatically start!
 
 ## Web Server
