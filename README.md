@@ -14,6 +14,7 @@ A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking various 
 - Automatic detection and configuration of USB lightguns, with calibration options appearing in the Settings menu if necessary. 
 - Automatic detection of physical PS1/PS2 disks at the main menu, with optional CD/DVD autostart!
 - NFC GameCard support, launch all of your favourite titles via NFC cards for hybrid physical/digital game launching!
+- Go full couch potato and view, browse and launch your games directly from your phone via emotionMenu's optional web launcher!
 - Incredibly simply to create custom themes for, simply copy your font, background image/video, and background audio of choice to a new folder in the "themes" directory, create a new "theme.cfg" file with text colour values and alignments, and you're set!
 
 ## Installation
@@ -30,6 +31,13 @@ if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
 fi
 ```
 - To configure settings, press Triangle (Y) or Tab and adjust them to your preferences!
+
+## NFC GameCards
+- To use NFC GameCards, you'll need to program the NFC tag you want to use with the following information. ```psx|Final Fantasy IX```, the first section being the system as named in EmulationStation, and the game name as registered in your scraped EmulationStation game data. Note that this assumes that your multi-disc games are either include ```(Disc X)``` in their name, or have been compressed into a single-file multi-disc format, like the .PBP format for PSX games.
+- Once programmed, tap the card against your NFC card reader while emotionMenu is running and your game will automatically start!
+
+## Web Server
+- To browse and launch games directly from your phone, you can enable "Web Server" from the settings menu, which will host a web server on port 1337 where you can browse all available systems and games, and launch them directly from their synopsis view!
 
 ## Why?
 I've recently set up a Raspberry Pi 5 as an all-in-one retro gaming / media setup via installing Raspberry Pi OS, EmulationStation, XFCE4, Kodi, and a bunch of other goodies, and realized I didn't have a good way to swap between them all with both a keyboard/mouse setup or a controller, so I threw this together over the weekend as a basic but pretty launcher for EmulationStation, GunCon2 calibration, Kodi, and launching XFCE, but any and all launchers can be modified to your liking!
@@ -51,6 +59,7 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [x] Add custom theme support (will include a PS1, PS2, and Frutiger Aero theme at release)
 - [x] Add "Settings" menu and associated .cfg file
 - [x] Add menu text alignment options for custom themes
+- [x] NFC GameCard support for directly launching games via simple-to-make custom NFC card solutions
 - [ ] Add option to remove/edit entries from ES (maybe a batch "stale entry" remover as well?)
 - [ ] Add an option to rotate between box and disc art if available
 - [ ] Add button mapping menu on first launch and in Settings menu
@@ -59,5 +68,4 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
 - [ ] PS1/PS2/VMU memory card management via mymc++ (wihch will hopefully include a PS2-style save menu with 3D icons, but that requires pyopengl integration, need to check if this is viable from terminal)
 - [ ] Automatic PS1/PS2 CD/DVD detection with manual launch and auto-launch options
-- [ ] NFC GameCard support for directly launching games via simple-to-make custom NFC card solutions
 - [ ] Optional webserver to launch games and view synopsis and art directly from your phone
