@@ -72,3 +72,4 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [ ] Maybe integrate a basic music/video player with DVD/CD support for a laff?
 - [ ] PS1/PS2/VMU memory card management via mymc++ (wihch will hopefully include a PS2-style save menu with 3D icons, but that requires pyopengl integration, need to check if this is viable from terminal)
 - [ ] Automatic PS1/PS2 CD/DVD detection with manual launch and auto-launch options
+- [ ] Optional Python utility that batch-writes NFC tags per-system
