@@ -5,6 +5,8 @@ A CRT-specific frontend for multipurpose Raspberry Pi setups, mimicking various 
 ![](themes/ps1.png)
 ![](themes/tachibana.png)
 ![](themes/aero.png)
+![](webmenu.png)
+
 
 ## Features
 - A 10-foot interface designed specifically for use with CRT TVs, which includes nostalgic themes, two of which are based around the Playstation and Playstation 2's visual design languages.
