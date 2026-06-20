@@ -63,7 +63,7 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [x] Add "Settings" menu and associated .cfg file
 - [x] Add menu text alignment options for custom themes
 - [x] NFC GameCard support for directly launching games via simple-to-make custom NFC card solutions
-- [x] Optional webserver to launch games and view synopsis and art directly from your phone (mostly done, needs "synopsis view" mode)
+- [x] Optional webserver to launch games and view synopsis and art directly from your phone (mostly done, needs "synopsis view" mode and save-state download function)
 - [ ] Add option to remove/edit entries from ES (maybe a batch "stale entry" remover as well?)
 - [ ] Add an option to rotate between box and disc art if available
 - [ ] Add button mapping menu on first launch and in Settings menu
