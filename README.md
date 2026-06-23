@@ -40,7 +40,7 @@ fi
 - If you have a physical game library but don't want to use the disks, you can try slipping a programmed NTAG215 sticker in/on the corner of a game case for a semi-authentic game launching experience, but I'd recommend printing out your own custom cards just in case the tags scratch up the plastic/paper of actual game boxes.
 
 ## Web Server
-- To browse and launch games directly from your phone, you can enable "Web Server" from the settings menu, which will host a web server on port 1337 where you can browse all available systems and games, and launch them directly from their synopsis view!
+- To browse and launch games directly from your phone, you can enable "Web Server" from the settings menu, which will host a web server on port 1337 where you can browse all available systems and games, view game synopsis, download savestates / save data, as well as view your current system stats such as CPU usage, temperature, uptime, and free space by clicking the interactive character in the bottom-right of the screen!
 
 ## Why?
 I've recently set up a Raspberry Pi 5 as an all-in-one retro gaming / media setup via installing Raspberry Pi OS, EmulationStation, XFCE4, Kodi, and a bunch of other goodies, and realized I didn't have a good way to swap between them all with both a keyboard/mouse setup or a controller, so I threw this together over the weekend as a basic but pretty launcher for EmulationStation, GunCon2 calibration, Kodi, and launching XFCE, but any and all launchers can be modified to your liking!
@@ -63,7 +63,7 @@ Python's the language I'm most fluent in and PyGame + python-av run wonderfully 
 - [x] Add "Settings" menu and associated .cfg file
 - [x] Add menu text alignment options for custom themes
 - [x] NFC GameCard support for directly launching games via simple-to-make custom NFC card solutions
-- [x] Optional webserver to launch games and view synopsis and art directly from your phone (mostly done, needs "synopsis view" mode and savestate/savegame download function)
+- [x] Optional webserver to launch games and view synopsis and art directly from your phone (mostly done, needs "synopsis view" mode and savestate/savegame download function, and finish the system stat viewer function)
 - [ ] Add option to remove/edit entries from ES (maybe a batch "stale entry" remover as well?)
 - [ ] Add an option to rotate between box and disc art if available
 - [ ] Add button mapping menu on first launch and in Settings menu
