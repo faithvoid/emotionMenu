@@ -47,14 +47,19 @@ I've recently set up a Raspberry Pi 5 as an all-in-one retro gaming / media setu
 
 ## FAQ
 - "Is this a replacement for EmulationStation?"
+
 Not at all. This is a hobby project for my already-mostly-complete ES setup. Any advanced configuration, such as input configuration and scraping, still requires ES, this is just a "straight-to-game/app" style launcher.
 - "Does this work on HDTVs?"
+
 Maybe? Probably not. Most resolution content is hardcoded for a 480p/480i resolution, as this is specifically targetting CRT setups. If I ever unravel that thread, I'll remove this section, but I probably won't, since this is intended for CRTs and similar low resolution displays.
 - "How do I add/modify shortcuts?"
+
 Open "emotionMenu.py" in your favourite text editor, look for the default launcher items (emulationStation being #1), and add/modify contents to your heart's desire! You can add as many shortcuts as you care to scroll through.
 - "How do I change the background video / text colour / font / background music or make my own theme?"
+
 You can modify "theme.cfg" in any existing theme to modify text colours and positioning, as well as replace background videos/images and fonts with your own, or create a new theme with your desired aesthetic!
 - "Why make this in Python/PyGame instead of C++ / SDL?"
+
 Python's the language I'm most fluent in and PyGame + python-av run wonderfully in terminal sessions, simple as that. C++ and SDL would be a better choice for performance and stability, but that also involves porting binaries to different platforms and whatnot, whereas this frontend can be modified to run on just about anything that runs Python and takes *nix commands.
 
 ## TODO
